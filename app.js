@@ -130,3 +130,4 @@ app.get("/players/:playerId/playerScores", async (request, response) => {
   const dbResponse = await db.get(getPlayersQuery);
   response.send(dbResponse);
 });
+
